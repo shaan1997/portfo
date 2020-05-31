@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <style>
+        
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+        </style>
+    </head>
+	<div class="about-section">
+  <a href="vaccination.html" style="color:white">Home </a>
+</div>
+<div class="about-section">
+  <h1>Contact us </h1>
+  <p>If you are facing any problem please contact with us from the given below profile</p>
+  <p></p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="">
+      <div class="container">
+        <h2>Shanawar Nawaz</h2>
+        <p class="title">Admin</p>
+        <p>8318893869</p>
+        <p>shanawarnawaz72@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="" alt="">
+      <div class="container">
+        <h2>Nitin Yadav</h2>
+        <p class="title">Admin</p>
+        <p>9598932074</p>
+        <p>yadavnitin1510@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="" alt="">
+      <div class="container">
+        <h2>Deepika singh</h2>
+        <p class="title">Designer</p>
+        <p>xxxxxxxx</p>
+        <p>deepika@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <img src="" alt="">
+      <div class="container">
+        <h2>Shrey</h2>
+        <p class="title">Designer</p>
+        <p>xxxxxxxx</p>
+        <p>shrey@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</html>
